@@ -1,8 +1,11 @@
 import React from 'react'
+import Home from '../pages/Home/Home'
 
 const Root = () => {
     return (
-        <div>Root</div>
+        <div>
+            <Home />
+        </div>
     )
 }
 
