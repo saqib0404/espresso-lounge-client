@@ -10,7 +10,7 @@ const Navbar = () => {
         >
             <div className="flex items-center gap-2">
                 <img src={navCup} alt="Logo" className="h-16" />
-                <p className="text-white text-3xl sm:text-5xl font-normal font-rancho">Espresso Emporium</p>
+                <h1 className="text-white text-3xl sm:text-5xl font-normal font-rancho">Espresso Emporium</h1>
             </div>
         </nav>
     )
