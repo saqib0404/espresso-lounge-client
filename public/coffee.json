@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Caramel Latte",
+        "chef": "Anna Lopez",
+        "price": 4.99,
+        "category": "Latte",
+        "taste": "Sweet and creamy",
+        "details": "Rich caramel with smooth milk"
+    },
+    {
+        "id": 2,
+        "name": "Espresso Macchiato",
+        "chef": "Marco Silva",
+        "price": 3.50,
+        "category": "Espresso",
+        "taste": "Bold and strong",
+        "details": "Espresso shot with milk foam"
+    },
+    {
+        "id": 3,
+        "name": "Mocha Delight",
+        "chef": "Sara Kim",
+        "price": 5.25,
+        "category": "Mocha",
+        "taste": "Chocolatey and rich",
+        "details": "Espresso, chocolate, and milk"
+    },
+    {
+        "id": 4,
+        "name": "Vanilla Cold Brew",
+        "chef": "David Nguyen",
+        "price": 4.75,
+        "category": "Cold Brew",
+        "taste": "Smooth and refreshing",
+        "details": "Chilled brew with vanilla flavor"
+    }
+]
