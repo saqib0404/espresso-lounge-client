@@ -17,7 +17,7 @@ const Banner = () => {
                     <p className="font-raleway">
                         It's coffee time - Sip & Savor - Relaxation in every sip! Get the nostalgia back!! Your companion of every moment!!! <br /> Enjoy the beautiful moments and make them memorable.
                     </p>
-                    <button className="bg-[#E3B577] text-black text-xl px-5 py-2 font-rancho">
+                    <button className="bg-[#E3B577] border-2 border-[#E3B577] hover:text-white hover:bg-transparent duration-200 hover:border-white text-black text-xl px-5 py-2 font-rancho">
                         Learn More
                     </button>
                 </div>
