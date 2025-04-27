@@ -19,7 +19,7 @@ const Coffees = () => {
             <div className='text-center flex flex-col items-center gap-5 mb-5'>
                 <span className=' font-raleway text-lg'>--- Sip & Savor ---</span>
                 <h3 className=' text-5xl font-semibold text-shadow-lg font-rancho'>Our Popular Products</h3>
-                <Link className='text-white font-normal font-rancho text-xl border-2 border-black flex items-center gap-2 px-3 py-1 rounded w-fit bg-[#E3B577]' >Add Coffee <BsCupHot /></Link>
+                <Link className='text-white font-normal hover:bg-white hover:text-black text-shadow duration-300 font-rancho text-xl border-2 border-black flex items-center gap-2 px-3 py-1 rounded w-fit bg-[#E3B577]' >Add Coffee <BsCupHot /></Link>
             </div>
 
             {
@@ -38,21 +38,23 @@ const Coffees = () => {
                                     </div>
                                 </div>
 
-                                <div className="w-2/3 pl-4 space-y-2">
-                                    <h2 className="text-xl font-bold">{coffee.name}</h2>
-                                    <p><span className="font-semibold">Chef:</span> {coffee.chef}</p>
-                                    <p><span className="font-semibold">Price: </span>${coffee.price}</p>
+                                <div className="w-2/3 pl-4 flex justify-between items-center space-y-2">
+                                    <div className='font-raleway space-y-2'>
+                                        <h2 className="text-xl font-bold">{coffee.name}</h2>
+                                        <p><span className="font-semibold">Chef:</span> {coffee.chef}</p>
+                                        <p><span className="font-semibold">Price: </span>{coffee.price} Taka</p>
 
-                                    <div className="flex gap-2 mt-3">
-                                        <button className="btn btn-sm btn-outline btn-primary">
+                                    </div>
+                                    <div className="flex items-center flex-col gap-2 mt-3">
+                                        <Link className="text-white duration-300 text-sm px-3 py-2 hover:text-lg rounded bg-[#E3B577]">
                                             <FaEye />
-                                        </button>
-                                        <button className="btn btn-sm btn-outline btn-secondary">
+                                        </Link>
+                                        <Link className="text-white duration-300 text-sm px-3 py-2 hover:text-lg rounded bg-[#3C393B]">
                                             <FaEdit />
-                                        </button>
-                                        <button className="btn btn-sm btn-outline btn-error">
+                                        </Link>
+                                        <Link className="text-white duration-300 text-sm px-3 py-2 hover:text-lg rounded bg-[#EA4744]">
                                             <FaTrash />
-                                        </button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
