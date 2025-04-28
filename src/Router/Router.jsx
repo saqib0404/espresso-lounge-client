@@ -1,9 +1,10 @@
 import {
     createBrowserRouter,
-    RouterProvider,
 } from "react-router-dom";
 import Root from "../Root/Root";
 import Home from "../pages/Home/Home";
+import AddCoffee from "../pages/AddCoffee/AddCoffee";
+import UpdateCoffee from "../pages/UpdateCoffee/UpdateCoffee";
 
 const router = createBrowserRouter([
     {
@@ -15,8 +16,12 @@ const router = createBrowserRouter([
                 element: <Home />
             },
             {
-                path: "any",
-                element: <h1>hii</h1>
+                path: "add-coffee",
+                element: <AddCoffee />
+            },
+            {
+                path: "update-coffee/:id",
+                element: <UpdateCoffee />
             },
         ]
     },

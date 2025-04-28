@@ -18,10 +18,10 @@ const Footer = () => {
                             <h3 className='text-3xl mb-8 text-[#331A15] sm:text-5xl font-normal font-rancho text-shadow-lg'>Espresso Emporium</h3>
                             <p className='font-raleway text-lg mb-6'>Always ready to be your friend. Come & Contact with us to share your <br /> memorable moments, to share with your best companion.</p>
                             <div className='text-[#331A15] flex text-3xl gap-4 my-6'>
-                                <FaFacebook className='hover:text-[#E3B577] duration-300 hover:text-4xl cursor-pointer' />
-                                <FaTwitter className='hover:text-[#E3B577] duration-300 hover:text-4xl cursor-pointer' />
-                                <FaInstagram className='hover:text-[#E3B577] duration-300 hover:text-4xl cursor-pointer' />
-                                <FaLinkedin className='hover:text-[#E3B577] duration-300 hover:text-4xl cursor-pointer' />
+                                <FaFacebook className='hover:text-[#E3B577] duration-300 hover:scale-125 cursor-pointer' />
+                                <FaTwitter className='hover:text-[#E3B577] duration-300 hover:scale-125 cursor-pointer' />
+                                <FaInstagram className='hover:text-[#E3B577] duration-300 hover:scale-125 cursor-pointer' />
+                                <FaLinkedin className='hover:text-[#E3B577] duration-300 hover:scale-125 cursor-pointer' />
                             </div>
                         </div>
                         <div>
@@ -37,10 +37,6 @@ const Footer = () => {
                     <div className='w-full'>
                         <form className='w-full'>
                             <h3 className='text-3xl text-[#331A15] sm:text-5xl font-normal font-rancho text-shadow-lg mb-10'>Contact Us</h3>
-                            {/* <input className='w-4/5 rounded px-4 my-2 py-2 border-2 focus:border-[#E3B577]' type="text" placeholder='Name' /> <br />
-                            <input className='w-4/5 rounded px-4 my-2 py-2 border-2 focus:border-[#E3B577]' type="text" placeholder='Email' /><br />
-                            <input className='w-4/5 rounded px-4 mt-2 mb-6 py-2 border-2 focus:border-[#E3B577]' type="text" placeholder='Message' /><br />
-                             */}
                             <input className='w-4/5 rounded px-4 my-2 py-2 border-2 border-white focus:border-[#E3B577] focus:outline-none' type="text" placeholder='Name' />
                             <br />
                             <input className='w-4/5 rounded px-4 my-2 py-2 border-2 border-white focus:border-[#E3B577] focus:outline-none' type="text" placeholder='Email' />
